@@ -1,4 +1,4 @@
-# intro-to-semantci
+# intro-to-semantic-ui
 
 This project accompanies my conference presentation on Intro to Semantic UI 2.0.  
 
