@@ -1,0 +1,24 @@
+{
+  "name": "intro-to-semantic",
+  "version": "1.0.0",
+  "description": "Examples for Intro To Semantic UI conference talks",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "semantic-ui": "^2.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylonr/intro-to-semantic-ui.git"
+  },
+  "author": "Nate Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taylonr/intro-to-semantic-ui/issues"
+  },
+  "homepage": "https://github.com/taylonr/intro-to-semantic-ui#readme"
+}
