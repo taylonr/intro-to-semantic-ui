@@ -1,5 +1,6 @@
 Show Index.html
-Change button theme to 'round', clean & rebuild/refresh.
-Change button theme to 'bootstrap', clean and rebuild/refresh.
+Change menu theme to 'github', clean & rebuild
+Change card theme to 'classic', clean & rebuild
+Change site menu.variables @activeItemBackground to yellow and @activeHoverItemBackground to @yellowHover, @hoverItemBackground: @lightYellowHover;, and rebuild/refresh
 Change site button.variables @primary color to yellow and rebuild/refresh.
 Look at source of Index.html and highlight its readability.

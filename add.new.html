@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' type='text/css' href='./semantic/dist/semantic.min.css' />
+    <script src='./node_modules/jquery/dist/jquery.min.js'></script>
+    <script src='./semantic/dist/semantic.min.js'></script>
+    <title>Semantic UI Demo</title>
+</head>
+
+<body>
+    <div class='ui menu'>
+        <a class='item'>Home</a>
+        <a class='item' href='./index.html'>My Recipes</a>
+        <a class='active item'>New Recipes</a>
+        <div class='right labled icon menu'>
+            <a class='item'>
+                <i class='large sign out icon'></i> Logout
+            </a>
+        </div>
+    </div>
+    <div class='ui container'>
+        <form class='ui form'>
+            <div class='two fields'>
+                <div class='field'>
+                    <label>Name</label>
+                    <input type='text' />
+                </div>
+                <div class='field'>
+                    <label>Total Time</label>
+                    <div class='ui labeled input'>
+                        <input type='number' />
+                        <div class='ui basic label'>Minutes</div>
+                    </div>
+                </div>
+            </div>
+            <div class='field'>
+                <label>Description</label>
+                <input type='text' />
+            </div>
+            <div class='field'>
+                <label>Recipe</label>
+                <textarea rows='10'></textarea>
+            </div>
+            <div class='field'>
+                <div class='ui large header'>
+                    <i class='add circle icon'></i>
+                    <div class='content'>Images</div>
+                </div>
+                <div class='ui message'>
+                    <p>You have not uploaded any images.</p>
+                </div>
+            </div>
+
+            <button class='ui secondary button'>Cancel</button>
+            <button class='ui primary right floated button'>Add</button>
+        </form>
+    </div>
+</body>
+<script type='text/javascript'>
+   $('.primary.button').on('click', function(e){
+    e.preventDefault();
+    $('form').addClass('loading');
+   });
+</script>
+</html>
