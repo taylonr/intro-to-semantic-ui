@@ -1,3 +1,7 @@
 /*******************************
      User Global Variables
 *******************************/
+@pageBackground: @black;
+@fontSize: 18px;
+@textColor: @white;
+@primaryColor: @red;
